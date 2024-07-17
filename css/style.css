@@ -485,7 +485,7 @@ section .head_ h1 {
   font-size: 2.5rem;
 }
 .footerPart p {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 50px;
   font-weight: 500;
 }
@@ -624,12 +624,12 @@ hr {
     flex-direction: column;
   }
   .card {
-    width: 100% !important;
+    width: 120% !important;
     margin: 10px 0;
   }
   .cards div img {
-    width: 370px;
-    height: 370px;
+    width: 450px;
+    height: 450px;
   }
   .divHead_resume {
     width: 90%;
@@ -660,7 +660,7 @@ hr {
     align-items: center;
   }
   .cardContainer img {
-    width: 490px;
+    width: 530px;
   }
 
   .skillData{
@@ -682,4 +682,33 @@ hr {
   .skillCard p{
     text-align: center;
   }
+  .slideremp{
+    width: 95%;
+    height: 500px;
+  }
+  .swiper-slide p{
+    width: 90%;
+  }
+  .footerPart .text p{
+     width: 100%;
+  }
+  hr{
+    width: 95%;
+  }
+  .footerIcons {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerIcons .leftPart{
+    position: relative;
+    left: -50px;
+    font-size: .7rem;
+  }
+  .footerIcons .rightPart{
+    position: relative;
+    right: -170px;
+    margin-top: 50px;
+    font-size: .5rem;
+  }
 }
+
